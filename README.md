@@ -47,7 +47,7 @@ The application uses the OpenWeather API to fetch weather data and dynamically d
   - Smooth hover animations  
   - Glassmorphism-inspired containers
  
-   ## License
+  ## License
   This project is licensed under the MIT License.
  
     
