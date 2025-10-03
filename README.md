@@ -6,7 +6,7 @@ SkyWatch allows users to search for a city and instantly view current weather co
 
 The application uses the OpenWeather API to fetch weather data and dynamically displays it on the page. It gracefully handles errors and loading states to ensure a smooth user experience.
 
-## Features
+ ## Features
 - Search for any city worldwide and get current weather.  
 - Display weather details:  
   - Temperature and "Feels Like"  
@@ -22,7 +22,7 @@ The application uses the OpenWeather API to fetch weather data and dynamically d
 - Error handling for invalid city names or API issues.  
 - Footer section with logo, copyright, and thematic icons.
 
-  ## How It Works
+ ## How It Works
 1. The user enters a city name in the search input and clicks "Get Weather" or presses Enter.  
 2. The app fetches current weather data from the OpenWeather API using fetch.  
 3. Displays the current weather in a styled container with temperature, humidity, wind speed, pressure, and weather conditions.  
@@ -30,14 +30,14 @@ The application uses the OpenWeather API to fetch weather data and dynamically d
 5. Loading indicators are shown during API calls.  
 6. If an invalid city is entered or an API error occurs, an error message is displayed.
 
-   ## Functions
+ ## Functions
 - getWeather(): Fetches current weather and 5-day forecast data from OpenWeather API and updates the UI.  
 - showLoading(): Displays a loading spinner while data is being fetched.  
 - showError(message): Displays an error message when a city is not found or API call fails.
 
-  ## Installation & Usage
+ ## Installation & Usage
 
-  ## Tech Stack
+ ## Tech Stack
 - Frontend: HTML5, CSS3, JavaScript (ES6)  
 - Fonts: Google Fonts (Poppins)  
 - API: [OpenWeather API](https://openweathermap.org/api)  
@@ -47,7 +47,7 @@ The application uses the OpenWeather API to fetch weather data and dynamically d
   - Smooth hover animations  
   - Glassmorphism-inspired containers
  
-    ## License
-This project is licensed under the MIT License.
+   ## License
+  This project is licensed under the MIT License.
  
     
