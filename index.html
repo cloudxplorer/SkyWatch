@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>SkyWatch</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="app">
+    <h1>SkyWatch</h1>
+    <div class="search-container">
+      <input type="text" id="cityInput" placeholder="Enter city name" />
+      <button onclick="getWeather()">Get Weather</button>
+    </div>
+    <div id="current-weather" class="weather-section"></div>
+    <h2 class="forecast-title">5-Day Forecast</h2>
+    <div id="forecast" class="forecast-section"></div>
+  </div>
+  <footer class="footer">
+    <div class="footer-glow"></div>
+    <div class="footer-content">
+      <div class="footer-logo">SkyWatch</div>
+      <div class="footer-divider"></div>
+      <div class="copyright-text">
+        &copy; 2025 SkyWatch Programmed by Pallavi Thakur.
+      </div>
+      <div class="copyright-text">
+        All Rights Reserved.
+      </div>
+      <div class="footer-icons">
+        <div class="footer-icon">🌤️</div>
+        <div class="footer-icon">🌡️</div>
+        <div class="footer-icon">💧</div>
+      </div>
+    </div>
+  </footer>
+  <script src="script.js"></script>
+</body>
+</html>
