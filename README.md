@@ -35,7 +35,15 @@ The application uses the OpenWeather API to fetch weather data and dynamically d
 - showLoading(): Displays a loading spinner while data is being fetched.  
 - showError(message): Displays an error message when a city is not found or API call fails.
 
- ## Installation & Usage
+## Installation & Usage
+- git clone https://github.com/cloudxplorer/SkyWatch
+- cd SkyWatch
+- python -m http.server 4444
+
+Now go to your browser
+- http://localhost:4444
+
+Demo Website:- SkyWatch
 
  ## Tech Stack
 - Frontend: HTML5, CSS3, JavaScript (ES6)  
