@@ -43,7 +43,7 @@ The application uses the OpenWeather API to fetch weather data and dynamically d
 Now go to your browser
 - http://localhost:4444
 
-Demo Website:- SkyWatch
+- **DEMO**:- [SkyWatch](https://cloudxplorer.github.io/SkyWatch/)
 
  ## Tech Stack
 - Frontend: HTML5, CSS3, JavaScript (ES6)  
